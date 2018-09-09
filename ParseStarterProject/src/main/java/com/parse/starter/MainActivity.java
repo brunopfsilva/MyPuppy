@@ -10,9 +10,16 @@ package com.parse.starter;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.widget.Toast;
 
+import com.parse.FindCallback;
+import com.parse.GetCallback;
+import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,22 +30,25 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
 
-   /*   ParseObject pontuacao = new ParseObject("Pontuacao");  //cria um objecto e salva os seus dados
-      pontuacao.put("nome","Bruno");
-      pontuacao.put("pontos", 100 );
-     // pontuacao.saveInBackground();
-      pontuacao.saveInBackground(new SaveCallback() {
+
+      ParseQuery<ParseObject> getAllPontos = ParseQuery.getQuery("Pontuacao");
+      getAllPontos.findInBackground(new FindCallback<ParseObject>() {
           @Override
-          public void done(ParseException e) {
-              if (e == null){
-                  Toast.makeText(MainActivity.this, "OK, Salvo", Toast.LENGTH_SHORT).show();
+          public void done(List<ParseObject> objects, ParseException e) {
+
+              if ( e == null){
+
+                  for (ParseObject ponto: objects){
+                      Log.i("nome",""+ ponto.get("nome"));
+                  }
+
+                  //Log.i("erro",""+objects.size());
+              }else{
+                  Log.i("erro",e.getMessage());
               }
+
           }
       });
-
-*/
-
-      ParseQuery<ParseObject> consultaPontos = ParseQuery.getQuery("Pontuacao");
 
     // ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }

@@ -54,7 +54,7 @@ public class StarterApplication extends Application {
     //  ParseUser.enableAutomaticUser(); bloqueia a criação de usuarios automaticamente
     ParseACL defaultACL = new ParseACL();
     // Optionally enable public read access.
-    // defaultACL.setPublicReadAccess(true);
-    ParseACL.setDefaultACL(defaultACL, true);
+     defaultACL.setPublicReadAccess(true); //Torna Leitura dos dados disponivel para ser consumida
+   // ParseACL.setDefaultACL(defaultACL, true);
   }
 }
