@@ -9,12 +9,10 @@
 package com.parse.starter;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 
-import com.parse.ParseAnalytics;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +21,24 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
+
+   /*   ParseObject pontuacao = new ParseObject("Pontuacao");  //cria um objecto e salva os seus dados
+      pontuacao.put("nome","Bruno");
+      pontuacao.put("pontos", 100 );
+     // pontuacao.saveInBackground();
+      pontuacao.saveInBackground(new SaveCallback() {
+          @Override
+          public void done(ParseException e) {
+              if (e == null){
+                  Toast.makeText(MainActivity.this, "OK, Salvo", Toast.LENGTH_SHORT).show();
+              }
+          }
+      });
+
+*/
+
+      ParseQuery<ParseObject> consultaPontos = ParseQuery.getQuery("Pontuacao");
 
     // ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
