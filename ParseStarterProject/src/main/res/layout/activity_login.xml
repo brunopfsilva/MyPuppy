@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_degrade_login"
+    tools:context="pt.mercadobit.mypuppy.view.mainActivity">
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ed_senhaLogin"
+        android:textColorHint="#ccc"
+        android:background="@drawable/fundo_degrade_botao_login"
+        android:onClick="makeLogin"
+        android:text="@string/btn_login" />
+
+    <TextView
+        android:id="@+id/id_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login"
+        android:layout_alignParentStart="true"
+        android:padding="16dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColorHint="#ccc"
+        android:textSize="32sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/ed_login"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="199dp"
+        android:textColorHint="#ccc"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/app_login" />
+
+    <EditText
+        android:id="@+id/ed_senhaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:textColorHint="#ccc"
+        android:ems="10"
+        android:layout_below="@+id/ed_login"
+        android:hint="@string/app_senha"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:onClick="openNewAccount"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/ed_login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-199dp"
+        android:background="@mipmap/ic_launcher_add_cliente" />
+</RelativeLayout>

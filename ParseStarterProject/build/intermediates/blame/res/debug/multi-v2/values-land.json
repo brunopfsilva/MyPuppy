@@ -4,20 +4,32 @@
             "outputFile": "Z:\\Parse-Projeto-1.13.0\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\7280fcf39cd74d350de608244c730c75\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5240899dc019cce3c68a7030ec45c1b6\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "4,7,10,11,14,17,18",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "291,590,908,978,1285,1595,1666",
-                        "endColumns": "61,71,69,69,63,70,67",
-                        "endOffsets": "348,657,973,1043,1344,1661,1729"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\bf221b0697c282d2270e2c40ba9ebc56\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,117,189,259,329,393,464",
-                        "endColumns": "61,71,69,69,63,70,67",
-                        "endOffsets": "112,184,254,324,388,459,527"
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
                     }
                 }
             ]

@@ -4,15 +4,8 @@
             "outputFile": "Z:\\Parse-Projeto-1.13.0\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\7280fcf39cd74d350de608244c730c75\\res\\values-h720dp\\values-h720dp.xml",
+                    "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5240899dc019cce3c68a7030ec45c1b6\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "294",
-                        "endColumns": "66",
-                        "endOffsets": "356"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

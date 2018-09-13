@@ -2,98 +2,85 @@
 <instant-run
     abi="x86"
     api-level="21"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="mdpi"
     format="10"
-    plugin-version="3.1.2"
-    timestamp="1536490921914"
+    plugin-version="3.1.4"
+    timestamp="1536860477981"
     token="-2089925777340493087"
-    verifier="COMPATIBLE" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="2765" />
+        duration="3643" />
     <task
         name="instant-run-dex"
-        duration="1941" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="209" />
+        duration="563" />
     <task
         name="verifier"
-        duration="90" />
+        duration="156" />
 
     <artifact
-        location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\instant-run-apk\debug\ParseStarterProject-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1536488650384"
+        timestamp="1536859667358"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\instant-run-apk\debug\ParseStarterProject-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1536490337335"
-        verifier="CLASS_ADDED" >
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\instant-run-apk\debug\ParseStarterProject-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1536490441921"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        timestamp="1536860477981"
+        verifier="METHOD_ADDED" >
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\builds\debug\1536490441921\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1536490921914"
-        verifier="COMPATIBLE" >
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
         <artifact
-            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="Z:\Parse-Projeto-1.13.0\ParseStarterProject\build\intermediates\instant-run-apk\debug\ParseStarterProject-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
